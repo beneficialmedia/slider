@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "esnext",
+        "target": "es5",
+        "lib": ["dom"],
+        "moduleResolution": "node",
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "allowJs": true,
+        "baseUrl": "./",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true
+    },
+    "include": ["**/*.tsx", "**/*.ts"],
+    "exclude": [
+      "node_modules",
+      "build",
+      "dist",
+      "lib",
+      "storybook-static",
+      "src/**/*.stories.tsx",
+      "src/**/*.test.tsx",
+      "examples"
+    ]
+  }
